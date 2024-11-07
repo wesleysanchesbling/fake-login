@@ -1,0 +1,18 @@
+{
+  "recommendations": ["Vue.volar"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "vetur.validation.template": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vue.languageFeatures.documentSymbols": true,
+  "vue.languageFeatures.completion.enabled": true,
+  "vue.languageFeatures.references.enabled": true,
+  "vue.languageFeatures.implementations.enabled": true,
+  "volar.autoCompleteRefs": true,
+  "volar.formatting.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}

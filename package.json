@@ -1,0 +1,43 @@
+{
+  "name": "bling-mfe-app-fintech",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5001",
+    "test": "vitest",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host --port 5001 --strictPort",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "pinia": "^2.2.2",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/node": "^22.4.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitest/ui": "^2.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.9.0",
+    "jsdom": "^24.1.1",
+    "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.2.0",
+    "vite": "^5.4.9",
+    "vite-plugin-vue-devtools": "^7.3.8",
+    "vitest": "^2.0.5",
+    "vue-tsc": "^2.0.29"
+  }
+}

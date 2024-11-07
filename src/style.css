@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Gilroy', 'Roboto', 'Helvetica', 'sans-serif';
+    box-sizing: border-box;
+}
