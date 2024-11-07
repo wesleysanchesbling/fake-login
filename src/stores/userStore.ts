@@ -22,8 +22,13 @@ export const useUserStore = defineStore('user', () => {
     });
 
     const getMe = async (): Promise<User> => {
-        me.value = await userGateway.getMe();
-        return me.value;
+        try {
+            me.value = await userGateway.getMe();
+            return me.value;
+        } catch (error) {
+            throw new Error('Error');
+        }
+
     }
 
     const auth = async (email: string, password: string): Promise<User> => {
