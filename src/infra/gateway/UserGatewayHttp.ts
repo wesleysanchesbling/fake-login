@@ -2,14 +2,6 @@ import User from "../../entities/User";
 import { NAME_TOKEN } from "../../utils/constants";
 import httpAdpter from "../http/HttpClientAdapter";
 
-interface UserData {
-    data: {
-        id: number;
-        name: string;
-        email: string;
-    };
-}
-
 const token = localStorage.getItem(NAME_TOKEN);
 
 export default class UserGatewayHttp {
